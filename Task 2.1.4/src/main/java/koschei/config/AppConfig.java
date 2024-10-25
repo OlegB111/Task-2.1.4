@@ -14,11 +14,12 @@ public class AppConfig {
 
     @Bean
     public static Island2 getIsland(Wood3 wood) {
-
         return new Island2(wood);
     }
 
     @Bean
-    public static Duck5 getDuck (Egg6 egg6) {return new Duck5(egg6);}
+    public static Duck5 getDuck (Egg6 egg6) {
+        return new Duck5(egg6);
+    }
 }
 
